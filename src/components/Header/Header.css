@@ -1,0 +1,104 @@
+.header{
+    height: 100vh;
+    background-color: #da9898;
+    overflow: hidden;
+}
+
+.image{
+    position: relative;
+}
+
+.img{
+    transform: translate(50px, 100px);
+    height: 400px;
+    width: 400px;
+    background-image: url('../../assets/imgs/Suha_Image.jpg');
+    background-size: cover;
+    border-radius: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.circle1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    z-index: 0;
+    background-color: rgb(125, 79, 79);
+}
+
+.circle2{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    z-index: 0;
+    background-color: #4b2121;
+}
+
+.circle_animation{
+    animation: circle-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2000ms;
+    overflow: hidden;
+}
+
+h1{
+    text-transform: capitalize;
+    transform: translate(0, 300px);
+    font-size: 40px;
+}
+
+
+
+
+@keyframes circle-animation {
+    0% {
+        transform: scale(1.04);
+        transition: ease-out;
+    }
+    50% {
+        transform: scale(1);
+        transition: ease-in;
+    }
+    100% {
+        transform: scale(1.05);
+        transition: ease-out;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header{
+       height:70vh;
+    }
+
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .circle1{
+        width: 150px;
+        height: 150px;
+        top: 85%;
+        left: 10%;
+    }
+
+    .circle2{
+        width: 150px;
+        height: 150px;
+        top: 80%;
+        left: 40%;
+    }
+
+    h1{
+        font-size: 20px;
+        transform: translate(0, 150px);
+    }
+}

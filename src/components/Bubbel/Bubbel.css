@@ -1,0 +1,187 @@
+.bubbel1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #da9898;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2000ms;
+    overflow: hidden;
+}
+
+.bubbel2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 10%;
+    background-color: #da9898;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2100ms;
+    overflow: hidden;
+}
+
+.bubbel3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 120px;
+    left: 70%;
+    background-color: #4b2121;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2200ms;
+    overflow: hidden;
+}
+
+.bubbel4{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    background-color: #da9898;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2300ms;
+    overflow: hidden;
+}
+
+.bubbel5{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background-color: #4b2121;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2400ms;
+    overflow: hidden;
+}
+
+.bubbel6{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    background-color: rgb(125, 79, 79);
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2500ms;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.bubbel7{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 270px;
+    left: 60%;
+    background-color: #da9898;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2600ms;
+    overflow: hidden;
+}
+
+.bubbel8{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 310px;
+    left: 35%;
+    background-color: #4b2121;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2700ms;
+    overflow: hidden;
+}
+
+.bubbel9{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left: 47%;
+    background-color: rgb(125, 79, 79);
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2800ms;
+    overflow: hidden;
+}
+
+.bubbel10{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    left: 30%;
+    background-color: #4b2121;
+    border-radius: 360px;
+    animation: bubble-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2900ms;
+    overflow: hidden;
+}
+
+.paragraph{
+    font-size: 60px;
+    font-family: "edu";
+}
+
+@keyframes bubble-animation {
+    0% {
+        transform: scale(1.04);
+        transition: ease-out;
+    }
+    50% {
+        transform: scale(1);
+        transition: ease-in;
+    }
+    100% {
+        transform: scale(1.05);
+        transition: ease-out;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   .bubbel1, 
+   .bubbel2, 
+   .bubbel3, 
+   .bubbel4,
+   .bubbel5, 
+   .bubbel6,
+   .bubbel7,
+   .bubbel8, 
+   .bubbel9, 
+   .bubbel10{
+     width: 80px;
+     height: 80px;
+   }
+
+}

@@ -1,0 +1,12 @@
+.about{
+    height: 600px;
+}
+
+.bubbels{
+    position: relative;
+}
+
+.text{
+    font-family: "edu";
+    font-size: 20px;
+}
