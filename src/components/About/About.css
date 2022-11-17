@@ -1,5 +1,10 @@
 .about{
-    height: 600px;
+    height: 100vh;
+    background-color: rgb(125, 79, 79);
+}
+
+.about h2{
+    color: white;
 }
 
 .bubbels{
@@ -9,4 +14,13 @@
 .text{
     font-family: "edu";
     font-size: 20px;
+    color: white;
+}
+
+
+@media screen and (max-width: 992px) {
+    
+ .about{
+    height: 150vh;
+ }
 }

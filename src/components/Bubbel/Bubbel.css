@@ -79,7 +79,7 @@
     position: absolute;
     top: 30px;
     left: 5%;
-    background-color: rgb(125, 79, 79);
+    background-color:#da9898;
     border-radius: 360px;
     animation: bubble-animation;
     animation-duration: 4s;
@@ -125,7 +125,7 @@
     position: absolute;
     top: 150px;
     left: 47%;
-    background-color: rgb(125, 79, 79);
+    background-color: #4b2121;
     border-radius: 360px;
     animation: bubble-animation;
     animation-duration: 4s;
@@ -180,8 +180,13 @@
    .bubbel8, 
    .bubbel9, 
    .bubbel10{
-     width: 80px;
-     height: 80px;
+     width: 70px;
+     height: 70px;
    }
+
+   .paragraph{
+    font-size: 50px;
+    font-family: "edu";
+    }
 
 }

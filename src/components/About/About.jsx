@@ -7,12 +7,12 @@ function About() {
   const bubbles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
-    <div className='about'>
+    <div className='about p-5'>
       <div className='container'>
-        <h2 className='text-center mt-4'>Who is me?</h2>
+        <h2 className='text-center'>Who is me?</h2>
         <Row>
           <Col md={6}>
-            <div className='text p-5'>
+            <div className='text mt-5'>
               <Bubble key={6} bubbel={6} text={"I"} />
               <div className='paragragphs pt-5'>
                 <p className='mt-5'>
