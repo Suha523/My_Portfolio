@@ -27,8 +27,8 @@ function About() {
           </Col>
           <Col md={6}>
             <div className='bubbels'>
-              {bubbles.map((b) => (
-                <Bubble key={b} bubbel={b} text={""} />
+              {bubbles.map((b, key) => (
+                <Bubble key={key} bubbel={b} text={""} />
               ))}
             </div>
           </Col>

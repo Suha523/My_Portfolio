@@ -1,0 +1,59 @@
+.service_container{
+    width: 40%;
+    height: 70%;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.service{
+   position: absolute;
+   top: 40%;
+   left: 5%;
+   width: 300px;
+   height: 300px;
+   background-color: #4b2121;
+   color: #da9898;
+   font-size: 30px;
+   border-radius: 360px;
+   transition: 0.5s;
+   z-index: 1;
+   margin-bottom: 10px;
+}
+
+.service :hover{
+    cursor: pointer;
+}
+
+.clicked{
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;  
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.parent :has(>.service_parent){
+   height: 10%;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .service_container{
+       width: 100%;
+    }
+
+    .service{
+        top: 80%;
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+        
+    }
+    .clicked{
+        top: 30%;
+        left: 0;
+        font-size: 15px;
+    }
+}

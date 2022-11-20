@@ -1,0 +1,9 @@
+.sub_service{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #7d4f4f;
+    color: white;
+    border-radius: 360px;
+    z-index : 0;
+}

@@ -1,0 +1,14 @@
+.skill{
+    width: 47%;
+    margin: 5px;
+}
+
+.bg-light-pink{
+    background-color: #da9898;
+}
+
+@media screen and (max-width: 992px) {  
+    .skill{
+       width: 100%;
+    }
+}

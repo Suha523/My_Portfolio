@@ -1,0 +1,16 @@
+.services{
+    height: 100vh;
+    background-color: #da9898;
+}
+
+.services h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .services{
+       height: 1000px;
+    }
+
+}
