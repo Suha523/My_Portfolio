@@ -103,7 +103,7 @@ function Skills() {
   ];
 
   return (
-    <div className='skills p-5'>
+    <div className='skills p-5' id="skills">
       <h2 className='text-center'>My Skills</h2>
       <div className='container'>
         <Row>

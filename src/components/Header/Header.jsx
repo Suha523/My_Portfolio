@@ -5,7 +5,7 @@ import { Col, Row } from "reactstrap";
 
 function Header() {
   return (
-    <div className='header'>
+    <div className='header' id="header">
       <div className='container'>
         <Row>
           <Col md={6}>
@@ -21,7 +21,7 @@ function Header() {
                 key='h'
                 options={{
                   strings: [
-                    `Hi, I'm Suha a full stack Engineer`,
+                    `Hi, I'm Suha Shehadeh a Full Stack Engineer`,
                     `SUHA : Self-assured, Unassuming, Hopeful, Ambitious`,
                   ],
                   autoStart: true,

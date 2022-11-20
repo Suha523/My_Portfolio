@@ -9,10 +9,20 @@ function Service(props) {
     setIsClicked(!isClicked);
   };
 
+  const handleMouseEnter = () => {
+    setIsClicked(true);
+  }
+
+  const handleMouseOut = () => {
+    setIsClicked(false);
+  }
+  
   return (
     <div className={isClicked ? "service_container" : "service_container h-25"}>
       <div
         onClickCapture={handleClick}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseOut}
         className={
           isClicked
             ? "service d-flex justify-content-center align-items-center clicked"

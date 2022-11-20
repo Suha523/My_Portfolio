@@ -7,7 +7,7 @@ function About() {
   const bubbles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
-    <div className='about p-5'>
+    <div className='about p-5' id="about">
       <div className='container'>
         <h2 className='text-center'>Who is me?</h2>
         <Row>

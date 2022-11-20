@@ -50,12 +50,9 @@
 }
 
 h1{
-    text-transform: capitalize;
     transform: translate(0, 300px);
     font-size: 40px;
 }
-
-
 
 
 @keyframes circle-animation {

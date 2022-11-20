@@ -14,7 +14,7 @@ function Services() {
     },
   ];
   return (
-    <div className='services p-5'>
+    <div className='services p-5' id="services">
       <h2>What I do?</h2>
       <div className='w-100 h-100'>
         <div className='d-flex justify-content-between flex-wrap w-100 h-100'>
