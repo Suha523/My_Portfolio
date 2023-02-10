@@ -1,0 +1,19 @@
+.project{
+    width: 30%;
+}
+
+.btn-pink{
+    background-color: #da9898;
+}
+
+@media screen and (max-width: 992px) {
+    .project{
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .project{
+       width: 50%;
+    }
+}
