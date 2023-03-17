@@ -29,6 +29,7 @@ function Header() {
                 }}
               />
             </h1>
+            <button className="btn btn-dark">Download CV</button>
           </Col>
         </Row>
       </div>

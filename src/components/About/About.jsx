@@ -17,11 +17,11 @@ function About() {
               <div className='paragragphs pt-5'>
                 <p className='mt-5'>
                   Graduated from Palestine Technical University - Khadoori in
-                  2021, with a Bachelor's degree in Computer Systems
+                  2021, with Bachelor's degree in Computer Systems
                   Engineering.
                 </p>
-                <p>Have 1+ year experience in web development.</p>
-                <p>Love reading, do workouts, walking and edit videos.</p>
+                <p>Have 2+ years experience in web development.</p>
+                <p>Love reading, do workouts, walking, and edit videos.</p>
               </div>
             </div>
           </Col>

@@ -1,23 +1,24 @@
 import React from "react";
+import { Zoom } from "react-awesome-reveal";
 import "./Project.css";
-
 function Project(props) {
   let project = props.project;
 
   return (
     <div className='project m-3'>
-      <div className='card'>
-        <img
-          src={project.thumbnail}
-          className='card-img-top'
-          alt={project.title}
-        />
-        <div className='card-body'>
-          <h5 className='card-title text-center'>{project.title}</h5>
-          <a href={project.link} className='btn btn-pink'>
-            Demo
-          </a>
-        </div>
+      <img
+        src={project.thumbnail}
+        alt={project.title}
+        width='100%'
+        height='100%'
+        className="rounded"
+      />
+      <div className='description rounded p-3 d-flex flex-column justify-content-center align-items-start'>
+        <h5 className='text-white'>{project.title}</h5>
+        <p className='text-white'>{project.description}</p>
+        <a href={project.link} className='btn btn-pink'>
+          Demo
+        </a>
       </div>
     </div>
   );
