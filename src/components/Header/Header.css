@@ -12,7 +12,7 @@
     transform: translate(50px, 100px);
     height: 400px;
     width: 400px;
-    background-image: url('../../assets/imgs/Suha_Image.jpg');
+    background-image: url('../../assets/imgs/personal_photo.png');
     background-size: cover;
     border-radius: 200px;
     position: relative;
@@ -55,8 +55,20 @@ h1{
     height: 20px;
 }
 
-.header button{
+.header a{
     transform: translate(0, 400px);
+}
+
+.btn-brown{
+    background-color: #4b2121;
+}
+
+.text-pink{
+    color: #da9898;
+}
+
+.text-pink:hover{
+    color: white;
 }
 
 
@@ -75,40 +87,71 @@ h1{
     }
 }
 
-@media screen and (max-width: 992px) {
-    .header{
-       height:120vh;
-    }
-
-    .img{
-        width: 200px;
-        height: 200px;
-    }
-
-    .circle1{
-        width: 150px;
-        height: 150px;
-        top: 85%;
-        left: 10%;
-    }
-
-    .circle2{
-        width: 150px;
-        height: 150px;
-        top: 80%;
-        left: 40%;
-    }
-
-    h1{
-        font-size: 20px;
-        transform: translate(0, 150px);
-    }
-}
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
-   
+    .header{
+        height:80vh;
+     }
+ 
+     .img{
+         width: 200px;
+         height: 200px;
+     }
+ 
+     .circle1{
+         width: 150px;
+         height: 150px;
+         top: 85%;
+         left: 10%;
+     }
+ 
+     .circle2{
+         width: 150px;
+         height: 150px;
+         top: 80%;
+         left: 40%;
+     }
+ 
+     h1{
+         font-size: 20px;
+         transform: translate(0, 150px);
+     }
+
+     .header a{
+        transform: translate(0, 200px);
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 481px) {
-   
+    .header{
+        height:50vh;
+     }
+ 
+     .img{
+         width: 200px;
+         height: 200px;
+     }
+ 
+     .circle1{
+         width: 150px;
+         height: 150px;
+         top: 85%;
+         left: 10%;
+     }
+ 
+     .circle2{
+         width: 150px;
+         height: 150px;
+         top: 80%;
+         left: 40%;
+     }
+ 
+     h1{
+         font-size: 20px;
+         transform: translate(0, 150px);
+     }
+
+     .header a{
+        transform: translate(0, 200px);
+    }
 }

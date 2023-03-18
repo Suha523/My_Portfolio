@@ -2,19 +2,15 @@
     height: 100vh;
 }
 
-@media screen and (max-width: 992px) {
-    
-    .skills{
-       height: 170vh;
-    }
-}
-
-
 @media screen and (max-width: 480px) and (min-width: 320px) {
-   
+    .skills{
+        height: 110vh;
+     }
 }
 
 @media screen and (max-width: 900px) and (min-width: 481px) {
-   
+    .skills{
+        height: 65vh;
+     }
 }
    

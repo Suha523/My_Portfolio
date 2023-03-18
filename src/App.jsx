@@ -15,32 +15,33 @@ function App() {
   let projects = [
     {
       id: 0,
-      title: "React Template",
-      link: "https://suha523.github.io/Start-Bootstrap-React-Template/",
-      thumbnail: React_Temp,
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, officiis!",
-    },
-    {
-      id: 1,
-      title: "Agency Landing Page",
-      link: "https://suha523.github.io/Agency-design-template/",
-      thumbnail: Agency,
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, officiis!",
-    },
-    {
-      id: 2,
       title: "Cake Store Landing Page",
       link: "https://incomparable-muffin-451fdc.netlify.app/",
       thumbnail: Cake_Store,
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, officiis!",
+      description: "This is a landing page for a cake store developed using HTML, CSS, Bootstrap, and jQuery with amazing colors, it shows the products of the cake store including flavors and a gallery of kinds of sweets contains.",
     },
     {
-      id: 3,
+      id: 1,
       title: "Campsite Landing Page",
       link: "https://suha523.github.io/Campsite-Landing-Page-React/",
       thumbnail: Campsite,
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, officiis!",
+      description: "This is a landing page for a wild campsite developed using React, CSS, and Bootstrap, it shows activities and amazing sites and a gallery for the fun moment that people spend in. It is including powerful colors that fit the environment in this campsite.",
     },
+    {
+      id: 2,
+      title: "React Template",
+      link: "https://suha523.github.io/Start-Bootstrap-React-Template/",
+      thumbnail: React_Temp,
+      description: "Landing page template design developed using React, CSS, and Bootstrap.",
+    },
+    {
+      id: 3,
+      title: "Agency Landing Page",
+      link: "https://suha523.github.io/Agency-design-template/",
+      thumbnail: Agency,
+      description: "Landing page template design developed using HTML, and CSS to make this design.",
+    },
+    
   ];
   return (
     <div className='App'>

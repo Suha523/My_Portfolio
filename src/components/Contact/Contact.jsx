@@ -12,10 +12,10 @@ function Contact() {
       link: "https://www.linkedin.com/in/suha-shehadeh-02a9471a5/",
     },
     {
-      name: "material-symbols:phone-android-rounded",
+      name: "ic:baseline-whatsapp",
       color: "#4b2121",
-      text: "0595521651",
-      link: "tel:0595521651",
+      text: "+972 595521651",
+      link: "http://wa.me/+972595521651",
     },
     {
       name: "ic:round-email",
@@ -23,6 +23,12 @@ function Contact() {
       text: "suhashehade@gmail.com",
       link: "mailto:suhashehade@gmail.com",
     },
+    {
+      name: "mdi:twitter",
+      color: "#4b2121",
+      text: "Suha Shehadeh Twitter",
+      link: "https://twitter.com/suhashehade",
+    }
   ];
   return (
     <div className='contact p-5' id="contact">

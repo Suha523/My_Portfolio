@@ -18,18 +18,14 @@
 }
 
 
-@media screen and (max-width: 992px) {
-    
- .about{
-    height: 170vh;
- }
-}
-
-
 @media screen and (max-width: 480px) and (min-width: 320px) {
-   
+    .about{
+        height: 130vh;
+     }
 }
 
 @media screen and (max-width: 900px) and (min-width: 481px) {
-   
+    .about{
+        height: 60vh;
+     }
 }

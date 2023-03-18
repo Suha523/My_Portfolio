@@ -8,18 +8,14 @@
     color: #da9898;
 }
 
-@media screen and (max-width: 992px) {
-    
+@media screen and (max-width: 480px) and (min-width: 320px) {
     .contact_item p{
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
-
-@media screen and (max-width: 480px) and (min-width: 320px) {
-   
-}
-
 @media screen and (max-width: 900px) and (min-width: 481px) {
-   
+    .contact_item p{
+        font-size: 20px;
+    }
 }

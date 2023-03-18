@@ -1,7 +1,6 @@
 import Project from "../Project/Project";
 import "./Portfolio.css";
 import Slider from "react-slick";
-import { Zoom } from "react-awesome-reveal";
 function Portfolio(props) {
   let projects = props.projects;
   let settings = {

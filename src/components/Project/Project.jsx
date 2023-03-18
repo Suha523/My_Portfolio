@@ -1,5 +1,4 @@
 import React from "react";
-import { Zoom } from "react-awesome-reveal";
 import "./Project.css";
 function Project(props) {
   let project = props.project;

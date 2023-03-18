@@ -29,7 +29,7 @@ function Header() {
                 }}
               />
             </h1>
-            <button className="btn btn-dark">Download CV</button>
+            <a href="https://drive.google.com/file/d/1PBK6gdDpr3Du6tVeM380fZ7W9m9SvrBt/view?usp=sharing" className="btn btn-brown text-pink">Download CV</a>
           </Col>
         </Row>
       </div>
