@@ -48,7 +48,7 @@ function Contact() {
             </div>
           </Col>
           <Col md={6}>
-            <div className='contact_info p-4'>
+            <div className='contact_info'>
               <h3 className="text-light-pink">I'm connected on:</h3>
               <ul className='list-unstyled mt-5'>
                 {contacts.map((c, key) => (
