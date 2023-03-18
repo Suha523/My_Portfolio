@@ -25,7 +25,7 @@ function App() {
       title: "Campsite Landing Page",
       link: "https://suha523.github.io/Campsite-Landing-Page-React/",
       thumbnail: Campsite,
-      description: "This is a landing page for a wild campsite developed using React, CSS, and Bootstrap. It is including powerful colors that fit the environment in this campsite.",
+      description: "This is a landing page for a wild campsite developed using React, CSS, and Bootstrap with powefull colors that fit the environment in this campsite.",
     },
     {
       id: 2,
