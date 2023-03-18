@@ -18,14 +18,14 @@ function App() {
       title: "Cake Store Landing Page",
       link: "https://incomparable-muffin-451fdc.netlify.app/",
       thumbnail: Cake_Store,
-      description: "This is a landing page for a cake store developed using HTML, CSS, Bootstrap, and jQuery with amazing colors, it shows the products of the cake store including flavors and a gallery of kinds of sweets contains.",
+      description: "This is a landing page for a cake store developed using HTML, CSS, Bootstrap, and jQuery with amazing colors.",
     },
     {
       id: 1,
       title: "Campsite Landing Page",
       link: "https://suha523.github.io/Campsite-Landing-Page-React/",
       thumbnail: Campsite,
-      description: "This is a landing page for a wild campsite developed using React, CSS, and Bootstrap, it shows activities and amazing sites and a gallery for the fun moment that people spend in. It is including powerful colors that fit the environment in this campsite.",
+      description: "This is a landing page for a wild campsite developed using React, CSS, and Bootstrap. It is including powerful colors that fit the environment in this campsite.",
     },
     {
       id: 2,
